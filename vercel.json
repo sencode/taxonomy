@@ -1,10 +1,9 @@
+
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/index.py": {
-      "includeFiles": "taxonomies/conditions-sample.json"
+      "includeFiles": "taxonomies/**"
     }
-  },
-  "rewrites": [
-    { "source": "/taxonomy", "destination": "/api/index" }
-  ]
+  }
 }
