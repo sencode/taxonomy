@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "alias": "vs_condition_code",
+      "hint": "Identification of the condition, problem or diagnosis",
+      "value": "Condition Codes (US Core)",
+      "children": [
+        {
+          "alias": "SNOMEDCT | 160245001 | No current problems or disability (situation) |",
+          "hint": "Code indicating no current problems",
+          "value": "No current problems or disability"
+        },
+        {
+          "alias": "SNOMEDCT | 404684003 | Clinical finding (finding) |",
+          "hint": "Includes all clinical findings",
+          "value": "Clinical finding",
+          "children": []
+        },
+        {
+          "alias": "SNOMEDCT | 272379006 | Event (event) |",
+          "hint": "Includes all events relevant to condition",
+          "value": "Event",
+          "children": []
+        },
+        {
+          "alias": "SNOMEDCT | 243796009 | Situation with explicit context (situation) |",
+          "hint": "Includes context-dependent categories",
+          "value": "Situation with explicit context",
+          "children": []
+        }
+      ]
+    },
+    {
+      "alias": "vs_condition_category",
+      "hint": "Category assigned to the condition",
+      "value": "Condition Category",
+      "children": [
+        {
+          "alias": "HL7 | problem-list-item | Problem List Item |",
+          "hint": "An item on a problem list that can be managed over time",
+          "value": "Problem List Item"
+        },
+        {
+          "alias": "HL7 | encounter-diagnosis | Encounter Diagnosis |",
+          "hint": "A point in time diagnosis in context of an encounter",
+          "value": "Encounter Diagnosis"
+        },
+        {
+          "alias": "HL7 | health-concern | Health Concern |",
+          "hint": "Additional health concerns",
+          "value": "Health Concern"
+        },
+        {
+          "alias": "HL7 | sdoh | SDOH |",
+          "hint": "Social Determinants of Health",
+          "value": "Social Determinants of Health"
+        }
+      ]
+    },
+    {
+      "alias": "vs_clinical_status",
+      "hint": "The clinical status of the condition or diagnosis",
+      "value": "Clinical Status",
+      "children": [
+        {
+          "alias": "HL7 | active | Active |",
+          "value": "Active"
+        },
+        {
+          "alias": "HL7 | recurrence | Recurrence |",
+          "value": "Recurrence"
+        },
+        {
+          "alias": "HL7 | relapse | Relapse |",
+          "value": "Relapse"
+        },
+        {
+          "alias": "HL7 | inactive | Inactive |",
+          "value": "Inactive"
+        },
+        {
+          "alias": "HL7 | remission | Remission |",
+          "value": "Remission"
+        },
+        {
+          "alias": "HL7 | resolved | Resolved |",
+          "value": "Resolved"
+        }
+      ]
+    },
+    {
+      "alias": "vs_verification_status",
+      "hint": "The verification status to support or decline the clinical status",
+      "value": "Verification Status",
+      "children": [
+        {
+          "alias": "HL7 | unconfirmed | Unconfirmed |",
+          "value": "Unconfirmed"
+        },
+        {
+          "alias": "HL7 | provisional | Provisional |",
+          "value": "Provisional"
+        },
+        {
+          "alias": "HL7 | differential | Differential |",
+          "value": "Differential"
+        },
+        {
+          "alias": "HL7 | confirmed | Confirmed |",
+          "value": "Confirmed"
+        },
+        {
+          "alias": "HL7 | refuted | Refuted |",
+          "value": "Refuted"
+        },
+        {
+          "alias": "HL7 | entered-in-error | Entered in Error |",
+          "value": "Entered in Error"
+        }
+      ]
+    }
+  ]
+}

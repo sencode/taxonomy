@@ -1,0 +1,31 @@
+{
+      "alias": "vs_verification_status",
+      "hint": "The verification status to support or decline the clinical status",
+      "value": "Verification Status",
+      "children": [
+        {
+          "alias": "HL7 | unconfirmed | Unconfirmed |",
+          "value": "Unconfirmed"
+        },
+        {
+          "alias": "HL7 | provisional | Provisional |",
+          "value": "Provisional"
+        },
+        {
+          "alias": "HL7 | differential | Differential |",
+          "value": "Differential"
+        },
+        {
+          "alias": "HL7 | confirmed | Confirmed |",
+          "value": "Confirmed"
+        },
+        {
+          "alias": "HL7 | refuted | Refuted |",
+          "value": "Refuted"
+        },
+        {
+          "alias": "HL7 | entered-in-error | Entered in Error |",
+          "value": "Entered in Error"
+        }
+      ]
+    }

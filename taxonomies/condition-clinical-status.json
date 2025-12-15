@@ -1,0 +1,31 @@
+    {
+      "alias": "vs_clinical_status",
+      "hint": "The clinical status of the condition or diagnosis",
+      "value": "Clinical Status",
+      "children": [
+        {
+          "alias": "HL7 | active | Active |",
+          "value": "Active"
+        },
+        {
+          "alias": "HL7 | recurrence | Recurrence |",
+          "value": "Recurrence"
+        },
+        {
+          "alias": "HL7 | relapse | Relapse |",
+          "value": "Relapse"
+        },
+        {
+          "alias": "HL7 | inactive | Inactive |",
+          "value": "Inactive"
+        },
+        {
+          "alias": "HL7 | remission | Remission |",
+          "value": "Remission"
+        },
+        {
+          "alias": "HL7 | resolved | Resolved |",
+          "value": "Resolved"
+        }
+      ]
+    }

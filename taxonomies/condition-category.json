@@ -1,0 +1,27 @@
+    {
+      "alias": "vs_condition_category",
+      "hint": "Category assigned to the condition",
+      "value": "Condition Category",
+      "children": [
+        {
+          "alias": "HL7 | problem-list-item | Problem List Item |",
+          "hint": "An item on a problem list that can be managed over time",
+          "value": "Problem List Item"
+        },
+        {
+          "alias": "HL7 | encounter-diagnosis | Encounter Diagnosis |",
+          "hint": "A point in time diagnosis in context of an encounter",
+          "value": "Encounter Diagnosis"
+        },
+        {
+          "alias": "HL7 | health-concern | Health Concern |",
+          "hint": "Additional health concerns",
+          "value": "Health Concern"
+        },
+        {
+          "alias": "HL7 | sdoh | SDOH |",
+          "hint": "Social Determinants of Health",
+          "value": "Social Determinants of Health"
+        }
+      ]
+    }

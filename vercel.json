@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/*.py": {
+      "includeFiles": "taxonomies/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}

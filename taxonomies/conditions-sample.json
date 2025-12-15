@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "alias": "vs_condition_code",
+      "hint": "US Core Condition Codes (Expanded Hierarchy)",
+      "value": "Condition Codes",
+      "children": [
+        {
+          "alias": "SNOMEDCT | 160245001 | No current problems or disability (situation) |",
+          "value": "No current problems or disability"
+        },
+        {
+          "alias": "SNOMEDCT | 404684003 | Clinical finding (finding) |",
+          "value": "Clinical finding",
+          "children": [
+            {
+              "alias": "SNOMEDCT | 64572001 | Disease (disorder) |",
+              "value": "Disease",
+              "children": [
+                {
+                  "alias": "SNOMEDCT | 49601007 | Disorder of cardiovascular system (disorder) |",
+                  "value": "Cardiovascular Disorder",
+                  "children": [
+                    {
+                       "alias": "SNOMEDCT | 84114007 | Heart failure (disorder) |",
+                       "value": "Heart Failure"
+                    },
+                    {
+                       "alias": "SNOMEDCT | 38341003 | Hypertensive disorder, systemic arterial (disorder) |",
+                       "value": "Hypertension"
+                    },
+                    {
+                       "alias": "SNOMEDCT | 22298006 | Myocardial infarction (disorder) |",
+                       "value": "Myocardial Infarction"
+                    }
+                  ]
+                },
+                {
+                  "alias": "SNOMEDCT | 118940003 | Disorder of nervous system (disorder) |",
+                  "value": "Neurological Disorder"
+                },
+                {
+                  "alias": "SNOMEDCT | 77176002 | Disorder of respiratory system (disorder) |",
+                  "value": "Respiratory Disorder"
+                },
+                {
+                  "alias": "SNOMEDCT | 128139000 | Inflammatory disorder (disorder) |",
+                  "value": "Inflammatory Disorder"
+                },
+                {
+                  "alias": "SNOMEDCT | 55603005 | Traumatic AND/OR non-traumatic injury (disorder) |",
+                  "value": "Injury"
+                }
+              ]
+            },
+            {
+              "alias": "SNOMEDCT | 248536006 | Finding of functional performance and activity (finding) |",
+              "value": "Functional Performance Finding"
+            },
+            {
+              "alias": "SNOMEDCT | 41919001 | Finding of body region (finding) |",
+              "value": "Finding by Body Region"
+            },
+            {
+              "alias": "SNOMEDCT | 57036006 | Neurological finding (finding) |",
+              "value": "Neurological Finding"
+            },
+            {
+              "alias": "SNOMEDCT | 106063007 | Cardiovascular finding (finding) |",
+              "value": "Cardiovascular Finding"
+            }
+          ]
+        },
+        {
+          "alias": "SNOMEDCT | 272379006 | Event (event) |",
+          "value": "Event",
+          "children": [
+            {
+              "alias": "SNOMEDCT | 419620001 | Death (event) |",
+              "value": "Death"
+            },
+            {
+              "alias": "SNOMEDCT | 41841006 | Accident (event) |",
+              "value": "Accident"
+            },
+            {
+              "alias": "SNOMEDCT | 132277008 | Poisoning event (event) |",
+              "value": "Poisoning"
+            }
+          ]
+        },
+        {
+          "alias": "SNOMEDCT | 243796009 | Situation with explicit context (situation) |",
+          "value": "Situation with explicit context",
+          "children": [
+            {
+              "alias": "SNOMEDCT | 57177007 | Family history with explicit context (situation) |",
+              "value": "Family History"
+            },
+            {
+              "alias": "SNOMEDCT | 394676004 | Legacy of clinical history (situation) |",
+              "value": "Past Clinical History"
+            },
+            {
+              "alias": "SNOMEDCT | 129125009 | Procedure with explicit context (situation) |",
+              "value": "Procedure Context"
+            },
+            {
+              "alias": "SNOMEDCT | 723232008 | Absence of finding (situation) |",
+              "value": "Absence of Finding"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
