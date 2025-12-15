@@ -54,9 +54,9 @@ def get_taxonomy(name: str, path: str = Query(None)):
         # This print statement will show up in Vercel Function Logs
         print(f"Error: Could not find file at {file_path}")
         if os.path.exists(TAXONOMY_DIR):
-             print(f"📂 Contents of {TAXONOMY_DIR}: {os.listdir(TAXONOMY_DIR)}")
+             print(f"Contents of {TAXONOMY_DIR}: {os.listdir(TAXONOMY_DIR)}")
         else:
-             print(f"📂 Directory {TAXONOMY_DIR} does not exist.")
+             print(f"Directory {TAXONOMY_DIR} does not exist.")
              
         raise HTTPException(status_code=404, detail=f"Taxonomy '{name}' not found.")
 
