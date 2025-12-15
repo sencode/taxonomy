@@ -1,10 +1,10 @@
 {
   "functions": {
     "api/index.py": {
-      "includeFiles": "taxonomies/**"
+      "includeFiles": "taxonomies/conditions-sample.json"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/taxonomy", "destination": "/api/index" }
   ]
 }
